@@ -1,0 +1,89 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+
+
+:root {
+  --main-font-family: input mono, menlo, monaco, consolas, monospace;
+}
+
+/* Change global font size */
+body   { 
+	font-size: 16px ; 
+	}
+
+ul ol li  { 
+	font-size: 16px; 
+	}
+	
+/* Change code font */
+pre {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    }
+
+.CodeMirror  {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    }
+
+.jp-RenderedHTMLCommon p, ul, ul ul, ol, ol ol{
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 16px !important;
+    color: #4C4C4C;
+    line-height: 20px;
+}
+
+.output_text pre {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    color: #333333;
+    }
+
+.text_cell.unrendered {
+     
+     }
+
+.text_cell.unrendered pre {
+        color: #807F7F;
+        }
+
+/* Text format */
+.rendered_html p, ul, ul ul, ol, ol ol{
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 16px !important;
+    color: #4C4C4C;
+    line-height: 20px;
+}
+
+
+/* Headings */
+h1 {color: #333333}
+h2 {color: #0c8ef8;	}
+h3 {color: #1A9C00}
+h4 {color: #7F7F7F}
+h5 {color: #7F7F7F}
+h6 {color: #7F7F7F}
+ 
+ul, ol{
+    color: #333333;
+    line-height: 23px;
+    margin-left:10px;
+}
+
+ul ul{ list-style-type: circle; }
+ul ul ul{ list-style-type: square; }
+
+.rendered_html pre, code {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    color: #4C4C4C;
+    }
+
+@media print {
+  div.inner_cell {display: block}
+}  

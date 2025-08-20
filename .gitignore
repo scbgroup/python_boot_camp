@@ -3,3 +3,4 @@
 python_boot_camp.zip
 *.pdf
 *.key
+.jupyter/
