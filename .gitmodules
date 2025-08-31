@@ -1,0 +1,3 @@
+[submodule "external/python_boot_camp"]
+	path = external/python_boot_camp
+	url = https://github.com/scbgroup/python_boot_camp.git
